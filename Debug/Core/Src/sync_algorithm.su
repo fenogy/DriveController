@@ -1,0 +1,2 @@
+../Core/Src/sync_algorithm.c:18:8:getMeanCurrent	40	static
+../Core/Src/sync_algorithm.c:31:6:ClearCurrentBuffer	16	static

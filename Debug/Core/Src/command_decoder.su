@@ -1,0 +1,16 @@
+../Core/Src/command_decoder.c:88:6:HAL_UART_TxCpltCallback	16	static
+../Core/Src/command_decoder.c:92:6:HAL_UART_RxCpltCallback	16	static
+../Core/Src/command_decoder.c:126:6:InitDriveData	16	static
+../Core/Src/command_decoder.c:160:6:ProcessReceiveBuffer	24	static
+../Core/Src/command_decoder.c:249:6:CheckReceiveBuffer	24	static
+../Core/Src/command_decoder.c:337:6:ProcessUserBuffer	24	static,ignoring_inline_asm
+../Core/Src/command_decoder.c:466:6:DecodeCommand	16	static,ignoring_inline_asm
+../Core/Src/command_decoder.c:523:6:substr	24	static
+../Core/Src/command_decoder.c:528:6:ClearReceiveBuffer	16	static
+../Core/Src/command_decoder.c:533:6:ClearUserBuffer	16	static
+../Core/Src/command_decoder.c:540:6:setDelay	24	static
+../Core/Src/command_decoder.c:559:9:IndexOf	24	static
+../Core/Src/command_decoder.c:592:6:CreateCurrentCommand	32	static,ignoring_inline_asm
+../Core/Src/command_decoder.c:614:6:CalculateIndices	24	static
+../Core/Src/command_decoder.c:651:9:NumberOf	24	static
+../Core/Src/command_decoder.c:688:8:ftoa	56	static
