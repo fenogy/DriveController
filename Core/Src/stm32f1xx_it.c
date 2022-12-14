@@ -357,6 +357,9 @@ void USART2_IRQHandler(void)
   /* USER CODE BEGIN USART2_IRQn 0 */
 	  lastChar = UART2_GetChar();
 	  drive2.rxBuffer[drive2.rxBufPtr++] = lastChar;
+	  if(drive2.rxBufPtr > 6){
+		  __NOP();
+	  }
 	  return;
   /* USER CODE END USART2_IRQn 0 */
   HAL_UART_IRQHandler(&huart2);
